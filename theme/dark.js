@@ -1,4 +1,4 @@
-ace.define("ace/theme/dark",["require","exports","module","ace/lib/dom"], function(acequire, exports, module) {
+ace.define("ace/theme/dark", ["require", "exports", "module", "ace/lib/dom"], function (acequire, exports, module) {
 
   exports.isDark = true;
   exports.cssClass = "ace-dark";
@@ -11,7 +11,7 @@ width: 1px;\
 background: #555651\
 }\
 .ace-dark {\
-background-color: #202020;\
+background-color: #202020!important;\
 color: #F8F8F2\
 }\
 .ace-dark .ace_cursor {\
@@ -98,6 +98,25 @@ color: #75715E\
 }\
 .ace-dark .ace_indent-guide {\
 background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWPQ0FD0ZXBzd/wPAAjVAoxeSgNeAAAAAElFTkSuQmCC) right repeat-y\
+}\
+.ace_editor.ace_autocomplete {\
+border-color: #272727!important;\
+}\
+.ace-dark .ace_content {\
+background: #202020;\
+}\
+.ace-dark.ace_autocomplete .ace_content {\
+background: #272727;\
+color: #fff!important;\
+border:none;\
+}\
+.ace-dark .ace_content .ace_active-line{\
+background: #202020!important;\
+border:none;\
+}\
+.ace-dark .ace_content .ace_line-hover {\
+background: #202020!important;\
+border:none!important;\
 }";
 
   var dom = acequire("../lib/dom");
