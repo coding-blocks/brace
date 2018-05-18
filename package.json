@@ -1,5 +1,5 @@
 {
-  "name": "brace",
+  "name": "@coding-blocks/brace",
   "version": "0.10.0",
   "description": "browserify compatible version of the ace editor.",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thlorenz/brace.git"
+    "url": "git://github.com/coding-blocks/brace.git"
   },
   "homepage": "https://github.com/thlorenz/brace",
   "dependencies": {
