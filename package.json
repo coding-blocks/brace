@@ -1,6 +1,6 @@
 {
   "name": "@coding-blocks/brace",
-  "version": "0.10.0",
+  "version": "0.11.1",
   "description": "browserify compatible version of the ace editor.",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -12,10 +12,8 @@
     "type": "git",
     "url": "git://github.com/coding-blocks/brace.git"
   },
+  "dependencies": {},
   "homepage": "https://github.com/coding-blocks/brace",
-  "dependencies": {
-    "w3c-blob": "0.0.1"
-  },
   "devDependencies": {
     "browserify": "~4.2.0",
     "opener": "~1.3.0",
